@@ -1,5 +1,6 @@
 {
   "name": "salmon-allocation",
+  "homepage": "https://yurakung.github.io/Salmon-Allocation/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,11 +8,14 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.3.0",
     "@tanstack/react-virtual": "^3.13.24",
+    "gh-pages": "^6.3.0",
     "react": "^19.2.5",
     "react-dom": "^19.2.5"
   },
