@@ -23,7 +23,6 @@ A comprehensive and responsive web application designed to manage, track, and al
 *   **[TypeScript](https://www.typescriptlang.org/)** - Static Typing
 *   **[Vite](https://vitejs.dev/)** - Next Generation Frontend Tooling
 *   **[Tailwind CSS](https://tailwindcss.com/)** - Utility-first CSS framework for rapid styling
-*   **[TanStack Virtual](https://tanstack.com/virtual/latest)** - Headless UI for virtualizing large scrollable lists
 
 ---
 
