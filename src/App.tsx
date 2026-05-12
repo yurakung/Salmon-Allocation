@@ -85,7 +85,7 @@ function App() {
     setStocks(updatedStocks);
     setCredits(updatedCredits);
     
-    alert('✅ ระบบได้ทำการ Run Auto Allocation ใหม่เรียบร้อยแล้ว!');
+    alert('ระบบได้ทำการ Auto Allocation ใหม่เรียบร้อยแล้ว!');
   }, []);
 
   const handleManualConfirm = (subOrderId: string, val: number | string) => {
