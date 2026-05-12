@@ -138,7 +138,7 @@ export default function ManualAllocationModal({
             <div className="flex justify-between pt-3 border-t border-blue-200/60 text-blue-900 font-bold">
               <span>Max allocatable</span>
               {/* แสดงตัวเลข Max ที่คำนวณทศนิยมแล้ว */}
-              <span>{maxAllocatable} kg</span> 
+              <span>{Max} kg</span> 
             </div>
           </div>
 
